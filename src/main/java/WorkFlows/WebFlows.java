@@ -8,11 +8,6 @@ public class WebFlows extends CommonOperations {
         UIActions.updateText(grafanaLoginPage.txt_userName,user);
         UIActions.updateText(grafanaLoginPage.txt_password,pass);
         UIActions.click(grafanaLoginPage.btn_login);
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         UIActions.click(grafanaLoginPage.btn_skip);
 
     }
