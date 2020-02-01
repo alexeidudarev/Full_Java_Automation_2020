@@ -13,12 +13,15 @@ public class CommonOperations extends Base {
     public void startSession(){
         String platform = "web";
         if (platform.equalsIgnoreCase("web")){
-            initBrowser("Browser type");
+            System.out.println("chrome driver init");
+            initBrowser("chrome");
         }else if (platform.equalsIgnoreCase("mobile")){
             //initMobile();
         }else{
             throw  new RuntimeException("invalid platform name");
         }
+        System.out.println("page objects init");
+        //initialisation of page objects
         PageManager.init();
     }
 

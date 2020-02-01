@@ -35,6 +35,49 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
+  <component name="RunManager" selected="TestNG.GrafanaTest">
+    <configuration name="GrafanaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Full_Java_Automation_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.GrafanaTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrafanaTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Full_Java_Automation_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.GrafanaTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GrafanaTest" />
+        <item itemvalue="TestNG.GrafanaTest.loginTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -65,6 +108,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580583143376" />
+    <state width="1313" height="189" key="GridCell.Tab.0.bottom" timestamp="1580591253562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="189" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580591253562" />
+    <state width="1313" height="189" key="GridCell.Tab.0.center" timestamp="1580591253562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="189" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580591253562" />
+    <state width="1313" height="189" key="GridCell.Tab.0.left" timestamp="1580591253562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="189" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580591253562" />
+    <state width="1313" height="189" key="GridCell.Tab.0.right" timestamp="1580591253562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="189" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580591253562" />
+    <state width="1313" height="171" key="GridCell.Tab.1.bottom" timestamp="1580590971971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="171" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580590971971" />
+    <state width="1313" height="171" key="GridCell.Tab.1.center" timestamp="1580590971971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="171" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580590971971" />
+    <state width="1313" height="171" key="GridCell.Tab.1.left" timestamp="1580590971971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="171" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580590971971" />
+    <state width="1313" height="171" key="GridCell.Tab.1.right" timestamp="1580590971971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="171" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580590971971" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1580583126554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -81,5 +156,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1580572804991" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/PageManager.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WorkFlows/WebFlows.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
