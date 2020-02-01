@@ -19,6 +19,7 @@ public class CommonOperations extends Base {
         }else{
             throw  new RuntimeException("invalid platform name");
         }
+        PageManager.init();
     }
 
     private static void initBrowser(String browser_type) {
@@ -31,6 +32,8 @@ public class CommonOperations extends Base {
         }else{
             throw  new RuntimeException("invalid browser name stated");
         }
+        driver.manage().window().maximize();
+        driver.get("http://localhost:3000");
     }
 
     private static WebDriver initIEDriver() {
