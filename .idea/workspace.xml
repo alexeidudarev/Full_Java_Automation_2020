@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c24677-7471-456d-9c34-cdd2af324434" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/AddNewUserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/AdminServerMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/LeftSideMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/ServerAdminMainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/UIActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/UIActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/Verifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/Verifications.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CommonOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CommonOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/PageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/GrafanaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/GrafanaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Extensions/UIActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Extensions/UIActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/CommonOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/CommonOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/PageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/PageManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkFlows/WebFlows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkFlows/WebFlows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SanityTests/GrafanaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SanityTests/GrafanaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="TestNG.GrafanaTest">
+  <component name="RunManager" selected="TestNG.GrafanaTest.verifyAddOneNewUser">
     <configuration name="GrafanaTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Full_Java_Automation_2020" />
       <extension name="coverage">
@@ -79,10 +93,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GrafanaTest.verifyAddOneNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Full_Java_Automation_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.GrafanaTest" />
+      <option name="METHOD_NAME" value="verifyAddOneNewUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrafanaTest.verifyDefaultUserExist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Full_Java_Automation_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.GrafanaTest" />
+      <option name="METHOD_NAME" value="verifyDefaultUserExist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GrafanaTest" />
+        <item itemvalue="TestNG.GrafanaTest.verifyAddOneNewUser" />
+        <item itemvalue="TestNG.GrafanaTest.verifyDefaultUserExist" />
         <item itemvalue="TestNG.GrafanaTest.loginTest" />
+        <item itemvalue="TestNG.GrafanaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -116,38 +168,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580583143376" />
-    <state width="1313" height="171" key="GridCell.Tab.0.bottom" timestamp="1580592839593">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="235" key="GridCell.Tab.0.bottom" timestamp="1580638024093">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1313" height="171" key="GridCell.Tab.0.center" timestamp="1580592839593">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580638024093" />
+    <state width="1545" height="235" key="GridCell.Tab.0.center" timestamp="1580638024093">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1313" height="171" key="GridCell.Tab.0.left" timestamp="1580592839593">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="235" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580638024093" />
+    <state width="1545" height="235" key="GridCell.Tab.0.left" timestamp="1580638024093">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1313" height="171" key="GridCell.Tab.0.right" timestamp="1580592839593">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="235" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580638024093" />
+    <state width="1545" height="235" key="GridCell.Tab.0.right" timestamp="1580638024093">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1313" height="171" key="GridCell.Tab.1.bottom" timestamp="1580592839593">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="235" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580638024093" />
+    <state width="1545" height="213" key="GridCell.Tab.1.bottom" timestamp="1580635983462">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1313" height="171" key="GridCell.Tab.1.center" timestamp="1580592839593">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="213" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580635983462" />
+    <state width="1545" height="213" key="GridCell.Tab.1.center" timestamp="1580635983462">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1313" height="171" key="GridCell.Tab.1.left" timestamp="1580592839593">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="213" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1580635983462" />
+    <state width="1545" height="213" key="GridCell.Tab.1.left" timestamp="1580635983462">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1313" height="171" key="GridCell.Tab.1.right" timestamp="1580592839593">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="213" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1580635983462" />
+    <state width="1545" height="213" key="GridCell.Tab.1.right" timestamp="1580635983462">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
+    <state width="1545" height="213" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1580635983462" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1580583126554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -41,7 +42,9 @@ public class CommonOperations extends Base {
         driver.manage().window().maximize();
         driver.get("http://localhost:3000");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //initialisation of objects
         webDriverWait = new WebDriverWait(driver,5);
+        actions = new Actions(driver);
     }
 
     private static WebDriver initIEDriver() {

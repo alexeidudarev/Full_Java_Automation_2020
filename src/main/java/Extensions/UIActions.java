@@ -20,5 +20,8 @@ public class UIActions extends CommonOperations {
         Select value = new Select(element);
         value.selectByVisibleText(text);
     }
+    public static void mouseHoverAction(WebElement element1,WebElement element2){
+        actions.moveToElement(element1).moveToElement(element2).click().build().perform();
+    }
 
 }
