@@ -16,5 +16,9 @@ public class AddNewUserPage {
     public WebElement txt_password;
     @FindBy(how = How.CSS , using = "button[type='submit']")
     public WebElement btn_create;
+    //div[class='alert-title']
+    @FindBy(how = How.CSS , using = "div[class='alert-title']")
+    public WebElement error_user_exist;
+
 
 }

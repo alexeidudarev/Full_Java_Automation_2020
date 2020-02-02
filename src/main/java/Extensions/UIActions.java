@@ -13,6 +13,7 @@ public class UIActions extends CommonOperations {
     }
     public static void updateText(WebElement element,String text){
         webDriverWait.until(ExpectedConditions.visibilityOf(element));
+        element.clear();
         element.sendKeys(text);
     }
     public static void updateDropDownText(WebElement element,String text){

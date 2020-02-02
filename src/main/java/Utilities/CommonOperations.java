@@ -41,9 +41,9 @@ public class CommonOperations extends Base {
         }
         driver.manage().window().maximize();
         driver.get("http://localhost:3000");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //initialisation of objects
-        webDriverWait = new WebDriverWait(driver,5);
+        webDriverWait = new WebDriverWait(driver,10);
         actions = new Actions(driver);
     }
 

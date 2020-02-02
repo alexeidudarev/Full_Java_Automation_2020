@@ -15,7 +15,8 @@ public class Base {
     public static MainPage grafanaMainPage;
     public static LeftSideMenuPage grafanaSideMenu;
     public static AdminServerMenuPage grafanaAdminMenu;
-    public static ServerAdminMainPage grafanaAdminPage;
+    public static ServerAdminMainPage grafanaAdminMainPage;
     public static AddNewUserPage grafanaAddNewUserPage;
+    public static EditUserPage grafanaEditUserPage;
 
 }

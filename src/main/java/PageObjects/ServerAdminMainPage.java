@@ -11,4 +11,6 @@ public class ServerAdminMainPage {
     public List<WebElement> user_instances_rows;
     @FindBy(how = How.CSS , using = "a[class='btn btn-primary']")
     public WebElement btn_new_user;
+    @FindBy(how = How.XPATH , using = "//a[contains(text(),'cook')]")
+    public WebElement btn_exist_user;
 }
