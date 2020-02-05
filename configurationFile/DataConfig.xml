@@ -5,5 +5,5 @@
     <!-- Web configurations-->
     <PlatformType>web</PlatformType>
     <BrowserName>chrome</BrowserName>
-    <Url>"http://localhost:3000"</Url>
+    <Url>http://localhost:3000</Url>
 </Environment>
