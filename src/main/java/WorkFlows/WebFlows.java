@@ -30,7 +30,7 @@ public class WebFlows extends CommonOperations {
             Random ran = new Random();
             int num = ran.nextInt(100);
             UIActions.updateText(grafanaAddNewUserPage.txt_name,String.format("%s-%s",name,num));
-            UIActions.updateText(grafanaAddNewUserPage.txt_email,email);
+            UIActions.updateText(grafanaAddNewUserPage.txt_email,String.format("%s%s",num,email));
             UIActions.updateText(grafanaAddNewUserPage.txt_username,String.format("%s-%s",user,num));
             UIActions.updateText(grafanaAddNewUserPage.txt_password,String.format("%s-%s",pass,num));
             UIActions.click(grafanaAddNewUserPage.btn_create);

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!-- Time out wait -->
+    <TimeOut>5</TimeOut>
+    <!-- Web configurations-->
+    <PlatformType>web</PlatformType>
+    <BrowserName>chrome</BrowserName>
+    <Url>"http://localhost:3000"</Url>
+</Environment>

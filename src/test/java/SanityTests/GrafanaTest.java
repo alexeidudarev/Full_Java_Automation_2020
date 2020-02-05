@@ -39,7 +39,17 @@ public class GrafanaTest extends CommonOperations {
         WebFlows.addNewUser("Alex","alex@gmai.com","cook","1234");
         int after = Verifications.getElemetsCount(grafanaAdminMainPage.user_instances_rows);
         WebFlows.removeOneLastExistingUser();
-        Assert.assertEquals(before,after);
+        Assert.assertEquals(before+1,after);
+
+    }
+    @Test
+    public void deleteLastUser(){
+        WebFlows.login("admin","admin");
+        UIActions.mouseHoverAction(grafanaSideMenu.btn_server_admin,grafanaAdminMenu.link_users_page);
+        int before = Verifications.getElemetsCount(grafanaAdminMainPage.user_instances_rows);
+        WebFlows.removeOneLastExistingUser();
+        int after = Verifications.getElemetsCount(grafanaAdminMainPage.user_instances_rows);
+        Assert.assertEquals(before-1,after);
 
     }
 }

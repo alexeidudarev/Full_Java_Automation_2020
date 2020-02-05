@@ -9,16 +9,21 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.w3c.dom.Document;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 public class CommonOperations extends Base {
     @BeforeClass
     public void startSession(){
-        String platform = "web";
+        String platform = getData("PlatformType");
         if (platform.equalsIgnoreCase("web")){
             System.out.println("chrome driver init");
-            initBrowser("chrome");
+            initBrowser(getData("BrowserName"));
         }else if (platform.equalsIgnoreCase("mobile")){
             //initMobile();
         }else{
@@ -28,7 +33,25 @@ public class CommonOperations extends Base {
         //initialisation of page objects
         PageManager.init();
     }
+    public static String getData(String nodeName){
+        File file;
+        DocumentBuilderFactory dbFactory;
+        DocumentBuilder dBuilder;
+        Document doc = null;
+        try{
+            file =  new File("./configurationFile/DataConfig.xml");
+            dbFactory = DocumentBuilderFactory.newInstance();
+            dBuilder = dbFactory.newDocumentBuilder();
+            doc = dBuilder.parse(file);
+            doc.getDocumentElement().normalize();
 
+        }catch(Exception e){
+            System.out.println("Getting error while reading  xml file :"+e);
+        }finally{
+            return doc.getElementsByTagName(nodeName).item(0).getTextContent();
+        }
+
+    }
     private static void initBrowser(String browser_type) {
         if(browser_type.equalsIgnoreCase("chrome")){
             driver = initChromeDriver();
@@ -40,10 +63,10 @@ public class CommonOperations extends Base {
             throw  new RuntimeException("invalid browser name stated");
         }
         driver.manage().window().maximize();
-        driver.get("http://localhost:3000");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get(getData("Url"));
+        driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
         //initialisation of objects
-        webDriverWait = new WebDriverWait(driver,10);
+        webDriverWait = new WebDriverWait(driver,Long.parseLong(getData("TimeOut")));
         actions = new Actions(driver);
     }
 
