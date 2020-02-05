@@ -1,5 +1,8 @@
 package Utilities;
 
+import io.qameta.allure.Attachment;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -28,6 +31,7 @@ public class Listeners extends CommonOperations implements ITestListener {
      */
     public void onTestFailure(ITestResult result) {
         System.out.println("--------------- Starting test : " + result.getName() + "---Failed-------");
+        saveScrenShot();
     }
 
     /**
@@ -74,6 +78,11 @@ public class Listeners extends CommonOperations implements ITestListener {
      */
     public void onFinish(ITestContext context) {
         System.out.println("--------------- Finish execution ------------");
+    }
+
+    @Attachment(value = "Page screen shot", type = "image/png")
+    public byte[] saveScrenShot(){
+        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
 
 }

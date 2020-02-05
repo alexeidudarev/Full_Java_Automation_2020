@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c24677-7471-456d-9c34-cdd2af324434" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/284803ee-2665-4411-8aa4-fe575b30339c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3d299647-194f-4ba6-9c34-51abadf33da1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5ba8d73c-3dc3-4abc-882a-3d0aa69cc5c4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/673995f3-98c3-4363-9175-9f23b06c5b52-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/73a86e12-407a-416a-a66f-546cea0226ba-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b0bcf0c4-6a58-49ca-bf35-36075302dcb3-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/GrafanaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/GrafanaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Listeners.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SanityTests/GrafanaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SanityTests/GrafanaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="TestNG.GrafanaTest.deleteLastUser">
+  <component name="RunManager" selected="TestNG.GrafanaTest.loginTest">
     <configuration name="GrafanaTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Full_Java_Automation_2020" />
       <extension name="coverage">
@@ -137,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GrafanaTest.loginTest" />
         <item itemvalue="TestNG.GrafanaTest.deleteLastUser" />
         <item itemvalue="TestNG.GrafanaTest.verifyAddOneNewUser" />
         <item itemvalue="TestNG.GrafanaTest" />
         <item itemvalue="TestNG.GrafanaTest.verifyDefaultUserExist" />
-        <item itemvalue="TestNG.GrafanaTest.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,26 +184,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580583143376" />
-    <state width="1545" height="427" key="GridCell.Tab.0.bottom" timestamp="1580896528483">
+    <state width="1545" height="152" key="GridCell.Tab.0.bottom" timestamp="1580897165672">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1545" height="427" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580896528483" />
-    <state width="1545" height="427" key="GridCell.Tab.0.center" timestamp="1580896528482">
+    <state width="1545" height="152" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580897165672" />
+    <state width="1545" height="152" key="GridCell.Tab.0.center" timestamp="1580897165672">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1545" height="427" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580896528482" />
-    <state width="1545" height="427" key="GridCell.Tab.0.left" timestamp="1580896528482">
+    <state width="1545" height="152" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580897165672" />
+    <state width="1545" height="152" key="GridCell.Tab.0.left" timestamp="1580897165672">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1545" height="427" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580896528482" />
-    <state width="1545" height="427" key="GridCell.Tab.0.right" timestamp="1580896528482">
+    <state width="1545" height="152" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580897165672" />
+    <state width="1545" height="152" key="GridCell.Tab.0.right" timestamp="1580897165672">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1313" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580592839593" />
-    <state width="1545" height="427" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580896528482" />
+    <state width="1545" height="152" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580897165672" />
     <state width="1545" height="345" key="GridCell.Tab.1.bottom" timestamp="1580896457919">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
