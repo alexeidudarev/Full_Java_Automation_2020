@@ -6,8 +6,10 @@ import Utilities.CommonOperations;
 import WorkFlows.WebFlows;
 import io.qameta.allure.Description;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(Utilities.Listeners.class)
 public class GrafanaTest extends CommonOperations {
     @Test(description = "Login to Grafana")
     @Description("Test description : Login to Grafana Web Application")
