@@ -20,7 +20,7 @@ public class Listeners extends CommonOperations implements ITestListener {
      * @see ITestResult#SUCCESS
      */
     public void onTestSuccess(ITestResult result) {
-        System.out.println("--------------- Starting test : " + result.getName() + "---Passed-------");
+        System.out.println("--------------- Started test : " + result.getName() + "---Passed-------");
     }
 
     /**
@@ -30,7 +30,7 @@ public class Listeners extends CommonOperations implements ITestListener {
      * @see ITestResult#FAILURE
      */
     public void onTestFailure(ITestResult result) {
-        System.out.println("--------------- Starting test : " + result.getName() + "---Failed-------");
+        System.out.println("--------------- Test : " + result.getName() + "is ---Failed-------");
         saveScrenShot();
     }
 

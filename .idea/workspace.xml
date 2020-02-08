@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c24677-7471-456d-9c34-cdd2af324434" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/7f7a2f2b-1f50-4606-8990-90431e3fd53e-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/Verifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/Verifications.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/GrafanaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/GrafanaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Extensions/Verifications.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Extensions/Verifications.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SanityTests/GrafanaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SanityTests/GrafanaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Listeners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
