@@ -15,7 +15,7 @@ public class Base {
     public static Actions actions;
     public static Screenshot imageScreenShot;
     public static ImageDiffer imgDiff = new ImageDiffer();
-    public static ImageDiff imageDiff;
+    public static ImageDiff diff;
 
 
     public static LoginPage grafanaLoginPage;

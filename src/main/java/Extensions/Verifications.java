@@ -6,10 +6,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 import static  org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertFalse;
 
 public class Verifications extends CommonOperations {
     @Step("Verify text in element")
@@ -35,5 +42,20 @@ public class Verifications extends CommonOperations {
             return true;
         }
         return false;
+    }
+    @Step("Verifying element visually")
+    public static void checkElementVisually(WebElement imageElement,String expectedImageName){
+        BufferedImage expectedImage = null;
+        try {
+            expectedImage = ImageIO.read(new File(getData("ImageRepo")+expectedImageName+".png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("error reading image file");
+        }
+        imageScreenShot = new AShot().takeScreenshot(driver,imageElement);
+        BufferedImage actualImage = imageScreenShot.getImage();
+        diff = imgDiff.makeDiff(expectedImage,actualImage);
+        assertFalse(diff.hasDiff(),"images are not the same");
+
     }
 }

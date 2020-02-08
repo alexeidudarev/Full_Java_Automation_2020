@@ -60,4 +60,11 @@ public class GrafanaTest extends CommonOperations {
         Assert.assertEquals(before-1,after);
 
     }
+    @Test(description = "Verify admin logo appear")
+    @Description("Test description :Verify admin default logo is appear")
+    public void verifyAdminAvatar(){
+        WebFlows.login("admin","admin");
+        Verifications.checkElementVisually(grafanaSideMenu.img_avatar,"grafanaAvatar");
+
+    }
 }
