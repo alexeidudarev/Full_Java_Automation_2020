@@ -2,10 +2,21 @@
 <Environment>
     <!-- Time out wait -->
     <TimeOut>5</TimeOut>
-    <!-- Web configurations-->
-    <PlatformType>web</PlatformType>
+
+    <!-- Platform in test -->
+    <!-- To make testing web platform , next parameter should be changed to 'web'-->
+    <!-- To make testing mobile platform , next parameter should be changed to 'mobile'-->
+    <PlatformType>mobile</PlatformType>
+
+    <!-- Configurations for web platform-->
     <BrowserName>chrome</BrowserName>
     <Url>http://localhost:3000</Url>
     <ImageRepo>./imageRepo/</ImageRepo>
+
+    <!-- Configurations for web platform-->
+    <UDID></UDID>
+    <AppPackage></AppPackage>
+    <AppActivity></AppActivity>
+    <Url></Url>
 
 </Environment>

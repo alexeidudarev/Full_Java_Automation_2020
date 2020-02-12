@@ -1,11 +1,14 @@
 package Utilities;
 
+import io.appium.java_client.remote.AndroidMobileCapabilityType;
+import io.appium.java_client.remote.MobileCapabilityType;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -15,6 +18,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class CommonOperations extends Base {
@@ -25,7 +30,7 @@ public class CommonOperations extends Base {
             System.out.println("chrome driver init");
             initBrowser(getData("BrowserName"));
         }else if (platform.equalsIgnoreCase("mobile")){
-            //initMobile();
+            initMobile();
         }else{
             throw  new RuntimeException("invalid platform name");
         }
@@ -33,6 +38,9 @@ public class CommonOperations extends Base {
         //initialisation of page objects
         PageManager.init();
     }
+
+
+
     public static String getData(String nodeName){
         File file;
         DocumentBuilderFactory dbFactory;
@@ -68,6 +76,19 @@ public class CommonOperations extends Base {
         //initialisation of objects
         webDriverWait = new WebDriverWait(driver,Long.parseLong(getData("TimeOut")));
         actions = new Actions(driver);
+    }
+
+    private void initMobile()  {
+        dc.setCapability(MobileCapabilityType.UDID,getData("UDID"));
+        dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,getData("AppPackage"));
+        dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,getData("AppActivity"));
+        try {
+            driver = new RemoteWebDriver(new URL(getData("Url")),dc);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+            System.out.println("Cant connect to Appium server ");
+        }
+        driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS );
     }
 
     private static WebDriver initIEDriver() {
