@@ -1,7 +1,7 @@
 package Utilities;
 
 import PageObjects.*;
-import PageObjectsMobile.MainActivity;
+import PageObjectsMobile.MortgageAppAndroid.MainActivity;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -30,5 +30,5 @@ public class Base {
     public static EditUserPage grafanaEditUserPage;
 
     //objects fro mobile app
-    public static MainActivity mortgageAppMainActivity;
+    public static MainActivity mortgageMobileAppMainActivity;
 }

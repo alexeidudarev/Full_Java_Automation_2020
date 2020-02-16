@@ -1,6 +1,7 @@
 package Utilities;
 
 import PageObjects.*;
+import PageObjectsMobile.MortgageAppAndroid.MainActivity;
 import org.openqa.selenium.support.PageFactory;
 
 public class PageManager extends Base {
@@ -12,6 +13,7 @@ public class PageManager extends Base {
         grafanaAdminMainPage = PageFactory.initElements(driver, ServerAdminMainPage.class);
         grafanaAddNewUserPage = PageFactory.initElements(driver, AddNewUserPage.class);
         grafanaEditUserPage = PageFactory.initElements(driver, EditUserPage.class);
+        mortgageMobileAppMainActivity = PageFactory.initElements(driver, MainActivity.class);
 
     }
 }

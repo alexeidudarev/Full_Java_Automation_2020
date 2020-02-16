@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c24677-7471-456d-9c34-cdd2af324434" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjectsMobile/MortgageAppAndroid/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/MobileFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configurationFile/DataConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFile/DataConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectsMobile/MainActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CommonOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CommonOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/PageManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +182,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580583143376" />
+    <state x="420" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581835079981">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="420" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1581835079981" />
     <state width="1311" height="243" key="GridCell.Tab.0.bottom" timestamp="1581188421723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -224,11 +230,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580583126554" />
-    <state x="444" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1581486546980">
+    <state x="444" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1581831470627">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581178603458" />
-    <state x="444" y="223" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1581486546980" />
+    <state x="444" y="223" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1581831470627" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580579832963">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

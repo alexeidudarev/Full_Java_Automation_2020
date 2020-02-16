@@ -15,8 +15,8 @@
 
     <!-- Configurations for web platform-->
     <UDID></UDID>
-    <AppPackage></AppPackage>
-    <AppActivity></AppActivity>
-    <Url></Url>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>com.shivgadhia.android.ukMortgageCalc.MainActivity</AppActivity>
+    <Url>http://localhost:4723</Url>
 
 </Environment>
