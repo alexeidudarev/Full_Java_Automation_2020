@@ -79,11 +79,14 @@ public class CommonOperations extends Base {
     }
 
     private void initMobile()  {
+        dc.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
+        dc.setCapability(MobileCapabilityType.PLATFORM_VERSION,"5.0.2");
+        dc.setCapability(MobileCapabilityType.DEVICE_NAME,"Meize device");
         dc.setCapability(MobileCapabilityType.UDID,getData("UDID"));
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,getData("AppPackage"));
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,getData("AppActivity"));
         try {
-            driver = new RemoteWebDriver(new URL(getData("Url")),dc);
+            driver = new RemoteWebDriver(new URL("http://localhost:4723/wd/hub"),dc);
         } catch (MalformedURLException e) {
             e.printStackTrace();
             System.out.println("Cant connect to Appium server ");

@@ -6,10 +6,12 @@ import io.qameta.allure.Step;
 
 public class MobileFlow extends CommonOperations {
 
-    @Step("Login Grafana flow")
-    public static void login(String user, String pass){
-
-
+    @Step("Fill form and calculate mortgage")
+    public static void calculateMortgage(String amount, String term ,String rate){
+        UIActions.updateText(mortgageMobileAppMainActivity.txt_amount,amount);
+        UIActions.updateText(mortgageMobileAppMainActivity.txt_rate,term);
+        UIActions.updateText(mortgageMobileAppMainActivity.txt_rate,rate);
+        UIActions.click(mortgageMobileAppMainActivity.btn_calculate);
 
     }
 }

@@ -2,13 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c24677-7471-456d-9c34-cdd2af324434" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjectsMobile/MortgageAppAndroid/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/MobileFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/03aab316-5683-4cb6-b9d3-a8912ec56c32-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0933f938-9ff0-4efb-97fa-90d1c16aa5a4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/10b2b147-b4b7-4053-86e1-2d3e86c47a0a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/14bcefb3-5218-4f04-a39f-6073220e14e7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/18d519cd-1de3-471f-a2f2-0b80e1b240f6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1e478ab7-7c09-4b47-9c13-b57243a2d112-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1f16a658-0631-49f8-9a92-03b15931d4d2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/20822ec6-1a32-455f-bc27-f15ff0fc7fd8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2e20cb04-59aa-4bb1-9b32-826553ef0e73-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/30887a5d-aa9a-4b47-9d24-837c20e342b1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/36990de3-9372-46d6-aead-477b9b0ad91d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4c653eea-780d-4ce2-92f7-44f024bbc543-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/51de38d7-2e70-43e1-8ed2-f387b7ca8d45-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5b345c08-b634-4d10-86d4-a7c6d7e1539a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/60d0a936-14fa-439d-b724-4698709feb5a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6108a928-f6ad-486e-88b2-110e0191aa3e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/79bfb8d0-d02b-4ba9-98ab-b2df11f0d2ef-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/818035af-c7fc-430a-bbb3-861f11c3d5f0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8fae0099-40d7-40af-a940-70b0027c8f19-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/97b510ad-a427-49f3-989c-ee40a1e0748a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9d7a9572-0e6f-43dd-b76c-c6477621b712-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a0826e11-16af-46e2-bcc7-1a6634a1e3c3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a6d451b1-cd07-4739-8414-8d6cd09b0806-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a8bb57d3-6266-457f-a9b4-2261b4f45282-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ad8e881a-43b8-45ce-9e96-bed0efec41a8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ae41fd63-e178-4ff4-a6d3-32358aa26884-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bc071039-2131-411d-a812-0d45303743c4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c6701a7e-405c-4250-b8c5-75ba241de5f0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c9b962db-7643-47ca-94dd-c454f78966dc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ce0b3f49-938f-4719-874e-35bdb2e82f42-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d0755478-8cd8-42f3-bb98-0fe3a965bb2e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d1d6f73a-5161-44cc-86eb-01d5f5d33608-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/daf560b8-253a-4600-9182-d7b3ce699396-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/def07e35-e653-43a3-9eba-68cf80bdc991-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e0ad0768-1ae1-450a-9e79-0788fd289a0d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e2713789-1888-49f0-8ced-cabfd5e1e868-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e35036e0-493f-4512-ab14-0f01174ced0f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e759dfca-c9a7-4712-b7cc-105c59eb3f5d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ffbf8ef5-88f8-4ffe-99f6-61adde23585c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SanityTests/MortgageAppTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configurationFile/DataConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFile/DataConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjectsMobile/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/PageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CommonOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CommonOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/MobileFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/MobileFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/CommonOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/CommonOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Listeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/PageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/PageManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +89,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="TestNG.GrafanaTest.verifyAdminAvatar">
+  <component name="RunManager" selected="TestNG.MortgageAppTests.mortgageCalculating">
     <configuration name="GrafanaTest.deleteLastUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Full_Java_Automation_2020" />
       <extension name="coverage">
@@ -85,24 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrafanaTest.verifyAddOneNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Full_Java_Automation_2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SanityTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SanityTests" />
-      <option name="MAIN_CLASS_NAME" value="SanityTests.GrafanaTest" />
-      <option name="METHOD_NAME" value="verifyAddOneNewUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GrafanaTest.verifyAdminAvatar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Full_Java_Automation_2020" />
       <extension name="coverage">
@@ -114,6 +137,24 @@
       <option name="PACKAGE_NAME" value="SanityTests" />
       <option name="MAIN_CLASS_NAME" value="SanityTests.GrafanaTest" />
       <option name="METHOD_NAME" value="verifyAdminAvatar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MortgageAppTests.mortgageCalculating" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Full_Java_Automation_2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.MortgageAppTests" />
+      <option name="METHOD_NAME" value="mortgageCalculating" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MortgageAppTests.mortgageCalculating" />
         <item itemvalue="TestNG.GrafanaTest.verifyAdminAvatar" />
         <item itemvalue="TestNG.VisualTesting.createScreenShot" />
         <item itemvalue="TestNG.GrafanaTest.loginTest" />
         <item itemvalue="TestNG.GrafanaTest.deleteLastUser" />
-        <item itemvalue="TestNG.GrafanaTest.verifyAddOneNewUser" />
       </list>
     </recent_temporary>
   </component>
@@ -186,26 +227,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="420" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1581835079981" />
-    <state width="1311" height="243" key="GridCell.Tab.0.bottom" timestamp="1581188421723">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="268" key="GridCell.Tab.0.bottom" timestamp="1581837896170">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1311" height="243" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581188421723" />
-    <state width="1545" height="345" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580897848049" />
-    <state width="1311" height="243" key="GridCell.Tab.0.center" timestamp="1581188421723">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="268" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1581837896170" />
+    <state width="1545" height="268" key="GridCell.Tab.0.center" timestamp="1581837896169">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1311" height="243" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581188421723" />
-    <state width="1545" height="345" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580897848048" />
-    <state width="1311" height="243" key="GridCell.Tab.0.left" timestamp="1581188421723">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="268" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1581837896169" />
+    <state width="1545" height="268" key="GridCell.Tab.0.left" timestamp="1581837896169">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1311" height="243" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581188421723" />
-    <state width="1545" height="345" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580897848048" />
-    <state width="1311" height="243" key="GridCell.Tab.0.right" timestamp="1581188421723">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1545" height="268" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1581837896169" />
+    <state width="1545" height="268" key="GridCell.Tab.0.right" timestamp="1581837896169">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1311" height="243" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581188421723" />
-    <state width="1545" height="345" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580897848049" />
+    <state width="1545" height="268" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1581837896169" />
     <state width="1545" height="345" key="GridCell.Tab.1.bottom" timestamp="1580897848049">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
