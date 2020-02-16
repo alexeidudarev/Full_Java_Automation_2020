@@ -81,7 +81,7 @@ public class CommonOperations extends Base {
     private void initMobile()  {
         dc.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         dc.setCapability(MobileCapabilityType.PLATFORM_VERSION,"5.0.2");
-        dc.setCapability(MobileCapabilityType.DEVICE_NAME,"Meize device");
+        dc.setCapability(MobileCapabilityType.DEVICE_NAME,"Meizu device");
         dc.setCapability(MobileCapabilityType.UDID,getData("UDID"));
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,getData("AppPackage"));
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,getData("AppActivity"));
